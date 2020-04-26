@@ -16,5 +16,5 @@ class EventsSpider(scrapy.Spider):
                     'event_name': event_meta[3],
                 }
 
-        # for next_page in response.css('a.pagination-next'):
-        #     yield response.follow(next_page, self.parse)
+        for next_page in response.css('a.pagination-next'):
+            yield response.follow(next_page, self.parse)
