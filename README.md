@@ -22,7 +22,7 @@ python run.py
 
 Scraped data will appear in `data/` directory.
 
-**NOTE:** It might take few hours to scrap the data.
+**NOTE:** It might take some time to scrap the data.
 
 ## License
 
