@@ -10,8 +10,9 @@ def delete_data_dir_contents():
 
 
 def scrap():
-    os.system('scrapy crawl events -o data/events.json')
-    os.system('scrapy crawl weapon_stats_by_event -o data/weapon_stats_by_event.json')
+    # os.system('scrapy crawl events -o data/events.json')
+    # os.system('scrapy crawl weapon_stats_by_event -o data/weapon_stats_by_event.json')
+    os.system('scrapy crawl weapon_stats_per_month -o data/weapon_stats_per_month.json')
 
 
 def main():
